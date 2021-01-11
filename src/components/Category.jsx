@@ -2,6 +2,7 @@ import React from 'react';
 import GifItem from './GifItem';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 import { Container, Row, Col } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 const Category = ({ category }) => {
 
@@ -23,6 +24,10 @@ const Category = ({ category }) => {
       </Row>
     </Container>
   );
+}
+
+Category.propTypes = {
+  category: PropTypes.string.isRequired
 }
 
 export default Category;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifItem Component Test should render GifItem component 1`] = `
+<Card
+  body={false}
+  className="card animate__animated animate__bounce"
+>
+  <CardImg
+    id="card-image"
+    src="https://media4.giphy.com/media/1Ot4mnOOXJawg/giphy.gif?cid=a91e1fa0y7j2gknh42f60yu2uhlalpxf4ckzn1vodn7axxdi&rid=giphy.gif"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    variant="top"
+  />
+  <CardBody>
+    <CardTitle
+      id="card-title"
+    >
+      Kevin
+    </CardTitle>
+  </CardBody>
+</Card>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifExpertApp Component Test should render GifExpertApp component 1`] = `
+<Fragment>
+  <Jumbotron
+    className="text-center"
+    fluid={false}
+  >
+    <h1>
+      GifExpertApp
+    </h1>
+  </Jumbotron>
+  <AddCategory
+    setCategory={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`GifExpertApp Component Test should show catgories list 1`] = `
+<Fragment>
+  <Jumbotron
+    className="text-center"
+    fluid={false}
+  >
+    <h1>
+      GifExpertApp
+    </h1>
+  </Jumbotron>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <Category
+    category="Lindsey Lohan"
+    key="0"
+  />
+  <Category
+    category="Inuyasha"
+    key="1"
+  />
+</Fragment>
+`;

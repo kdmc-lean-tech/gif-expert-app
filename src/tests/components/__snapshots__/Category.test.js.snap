@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category Component Test should render category component 1`] = `
+<Container
+  className="mb-4"
+  fluid={false}
+>
+  <Row
+    noGutters={false}
+  >
+    <p>
+      Loading........
+    </p>
+  </Row>
+</Container>
+`;
+
+exports[`Category Component Test should show items when be upload gifs useFecthGifs 1`] = `
+<Container
+  className="mb-4"
+  fluid={false}
+>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="mb-4"
+      key="3"
+      lg="3"
+      md="6"
+    >
+      <GifItem
+        gif={
+          Object {
+            "id": "3",
+            "title": "Bugs Bonny",
+            "url": "https://media0.giphy.com/media/1dMNqVx9Kb12EBjFrc/giphy.gif?cid=a91e1fa02z4huvfdz4isenmiuf5oyayjiodcifdstfjnk4ci&amp;rid=giphy.gif\\"",
+          }
+        }
+        key="3"
+      />
+    </Col>
+  </Row>
+</Container>
+`;

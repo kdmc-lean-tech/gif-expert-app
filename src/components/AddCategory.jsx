@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Container } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 const AddCategory = ({ setCategory }) => {
   const [inputValue, setInputValue] = useState('');
@@ -17,18 +18,23 @@ const AddCategory = ({ setCategory }) => {
 
   return (
     <Container className='mb-4'>
-      <Form onSubmit={ handleOnSubmit }>
+      <Form onSubmit={ handleOnSubmit } id='form'>
         <Form.Group>
           <Form.Control
             type='text'
             placeholder='Search gifs.....'
             value={ inputValue }
-            onChange={ handleOnChange }  
+            onChange={ handleOnChange }
+            id='input-text'
           />
         </Form.Group>
       </Form>
     </Container>
   );
+}
+
+AddCategory.propTypes = {
+  setCategory: PropTypes.func.isRequired
 }
 
 export default AddCategory;

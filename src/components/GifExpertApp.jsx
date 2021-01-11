@@ -3,9 +3,9 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import AddCategory from './AddCategory';
 import Category from './Category';
 
-const GifExpertApp = () => {
+const GifExpertApp = ({ defaultCategories=[] }) => {
 
-  const [ categories, setCategory ] = useState(['lindsay logan']);
+  const [ categories, setCategory ] = useState(defaultCategories);
 
   return (
     <Fragment>

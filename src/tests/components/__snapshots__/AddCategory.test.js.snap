@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCategory Test should render AddCategory component 1`] = `
+<Container
+  className="mb-4"
+  fluid={false}
+>
+  <Form
+    id="form"
+    inline={false}
+    onSubmit={[Function]}
+  >
+    <FormGroup>
+      <FormControl
+        id="input-text"
+        onChange={[Function]}
+        placeholder="Search gifs....."
+        type="text"
+        value=""
+      />
+    </FormGroup>
+  </Form>
+</Container>
+`;
